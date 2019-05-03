@@ -4,4 +4,6 @@
 .git
 .gitignore
 
+LICENSE
+
 node_modules/
