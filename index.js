@@ -5,8 +5,8 @@ const controller = require('./server/controller');
 
 const expressApp = express();
 
-//expressApp.use(express.json());
-expressApp.use(bodyParser({limit: '50mb'}));
+//expressApp.use(express.json()); 
+expressApp.use(bodyParser({limit: '50mb'})); //File Transfer
 expressApp.use(cors());
 expressApp.use(controller);
 
